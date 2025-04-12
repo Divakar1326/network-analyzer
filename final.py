@@ -53,7 +53,7 @@ if "tests_run" not in st.session_state:
 
 # Paths
 adb_path = r"app/adb.exe"
-excel_path = r"C:/Users/diva1/OneDrive/Documents/DP_Final_Review/Data/network_readings.xlsx"
+excel_path = r"Data/network_readings.xlsx"
 if "excel_cleared" not in st.session_state:
     if os.path.exists(excel_path):
         try:
@@ -504,7 +504,7 @@ elif df is not None:
 else:
     st.warning("No data available for average analysis. Run tests to generate data.", icon="⚠️")
 
-data_file = "C:/Users/diva1/OneDrive/Documents/DP_Final_Review/Data/network_readings.xlsx"
+data_file = "Data/network_readings.xlsx"
 
 if os.path.exists(data_file):
     with open(data_file, "rb") as file:
