@@ -52,7 +52,7 @@ if "tests_run" not in st.session_state:
     st.session_state.tests_run = False
 
 # Paths
-adb_path = r"app/adb.exe"
+adb_path = r"app\adb.exe"
 excel_path = r"C:/Users/diva1/OneDrive/Documents/DP_Final_Review/Data/network_readings.xlsx"
 if "excel_cleared" not in st.session_state:
     if os.path.exists(excel_path):
