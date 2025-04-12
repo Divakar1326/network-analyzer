@@ -33,7 +33,7 @@ def set_background(image_file):
          """,
          unsafe_allow_html=True
      )
-set_background("C:/Users/diva1/OneDrive/Documents/DP_Final_Review/13.jpg")
+set_background("/images/13.jpg")
 
 # Global state variables
 if "wifi_connected" not in st.session_state:
